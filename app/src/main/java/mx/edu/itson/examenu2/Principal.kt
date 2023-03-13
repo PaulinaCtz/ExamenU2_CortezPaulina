@@ -13,7 +13,7 @@ class Principal : AppCompatActivity() {
         val button: Button = findViewById(R.id.btn_detalles)
 
         button.setOnClickListener {
-            var intent: Intent = Intent( this, Principal::class.java)
+            var intent: Intent = Intent( this, Regalos::class.java)
 
             startActivity(intent)
         }
